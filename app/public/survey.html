@@ -1,0 +1,147 @@
+<!-- Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey - Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+  
+      <div class="jumbotron">
+        <h1 class="text-center"><span class="fa fa-fire"></span> Survey Questions</h1>
+      <hr>
+        <h3 class="text-center">About You:</h3>
+        <br>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Required">
+        </div>
+        <div class="form-group">
+          <label for="photo">Link to Photo Image</label>
+          <input type="photo" class="form-control" id="photo" placeholder="Required">
+        </div>
+        <div class="form-group">
+            <label for="question1">You find it difficult to introduce yourself to other people.</label>
+            <select class="form-control" id="question1">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question2">You often get so lost in thoughts that you ignore or forget your surroundings.</label>
+            <select class="form-control" id="question2">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question3">You try to respond to your e-mails as soon as possible and cannot stand a messy inbox.</label>
+            <select class="form-control" id="question3">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question4">You find it easy to stay relaxed even when there is some pressure.</label>
+            <select class="form-control" id="question4">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question5">You do not usually initiate conversations.</label>
+            <select class="form-control" id="question5">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question6">You rarely do something just out of sheer curiosity.</label>
+            <select class="form-control" id="question6">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question7">Being organized is more important to you than being adaptable.</label>
+            <select class="form-control" id="question7">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question8">You are usually highly motivated and energetic.</label>
+            <select class="form-control" id="question8">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question9">You often feel as if you have to justify yourself to other people.</label>
+            <select class="form-control" id="question9">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question10">Your home and work environments are quite tidy.</label>
+            <select class="form-control" id="question10">
+              <option>1 (Strongly Disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly Agree)</option>
+            </select>
+          </div>
+          
+        <div class="form-check">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      <footer class="footer">
+        <div class="container">
+          <p><a href="/api/friend.js">API Friends List</a> | <a href="https://github.com/HannahSchuelke/FriendFinder">Github Repo</a>
+        </div>
+      </footer>
+  
+    </div>
+  
+  
+  </body>
+  </html>
