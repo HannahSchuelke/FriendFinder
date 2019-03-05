@@ -65,7 +65,7 @@ const friends = [{
 },
 {
     "name": "Tina",
-        "photo": "https://i.ytimg.com/vi/oGpFcHTxjZs/maxresdefault.jpgS",
+        "photo": "http://www.liketotally80s.com/wp-content/uploads/2016/07/tt.jpg",
             "scores": [
                 1,
                 3,
