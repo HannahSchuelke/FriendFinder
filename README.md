@@ -20,13 +20,15 @@ To utilize this project, access my files via my FriendFinder Github repository a
 
 ### How to use
 
-After following the steps above, your browser will first populate with a home directory. 
+After following the steps above, your browser will first populate with the home directory. Click the button `Take Survey` and it will redirect you to the survey page. 
 
 ![](friendFinderHome.png)
 
-Click the button `Take Survey` and it will redirect you to the survey page. You may also click `API Friends List` here to see potential matches. `Github Repo` at the bottom will take you to my FriendFinder repo.
+You may also click `API Friends List` here to see potential matches. `Github Repo` at the bottom will take you to my FriendFinder repo.
 
 ![](APIFriendsList.png)
+
+After clicking `Take Survey`, your webpage will transition to the survey page as seen below. 
 
 ![](surveyStart.png)
 
@@ -36,11 +38,11 @@ After you've completed your survey, click `submit` and your match will populate 
 
 ![](match.png)
 
-If you do not fill in all required fields, the request cannot be processed and you will be prompted to fill it out completely. 
+If you do not fill in all required fields, the request cannot be processed and you will be prompted to fill out the form completely. 
 
 ![](alert.png)
 
-After you've gotton your match (or perhaps you would like to try for another), you can see your list of potential matches increases by clicking the `API Friends List` at the bottom of the page. 
+After you've gotton your match, you can see that your list of potential matches increased by clicking the `API Friends List` at the bottom of the page. If you take the survey again, your new entry will be added to the bottom of the list.
 
 ![](updatedFriendsList.png)
 
