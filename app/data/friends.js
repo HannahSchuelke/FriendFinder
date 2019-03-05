@@ -1,9 +1,7 @@
-// You should save your application's data inside of app/data/friends.js as an array of objects. Each of these objects should roughly follow the format below.
-
 // applicants data
 const friends = [{
     "name": "Hannah",
-        "photo": "https://cdn.shopify.com/s/files/1/0313/9945/products/princess_allura_ring_small_06c91eb1-560d-45b3-9f4f-6d5b91948526_medium.jpg?v=1526314376",
+        "photo": "https://i1.sndcdn.com/avatars-000101671660-0nrtig-t500x500.jpg",
             "scores": [
                 1,
                 3,
@@ -19,7 +17,7 @@ const friends = [{
 },
 {
     "name": "Joe",
-        "photo": "https://assets.entrepreneur.com/content/1x1/300/20160811224121-JeffRojas.jpeg?width=100",
+        "photo": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQwODQ0Nzc0MjIyNDczMDA2/joe-biden-official-portrait_1600jpg.jpg",
             "scores": [
                 5,
                 2,
@@ -35,7 +33,7 @@ const friends = [{
 },
 {
     "name": "Bob",
-        "photo": "https://cdn-images-1.medium.com/fit/c/100/100/0*nRVuVpfiFOtWEhDQ.jpeg",
+        "photo": "https://yt3.ggpht.com/a-/AAuE7mC75lyDOGkH_0L4_ZR6F4bfGviFjsMZIGa22w=s900-mo-c-c0xffffffff-rj-k-no",
             "scores": [
                 4,
                 2,
@@ -51,7 +49,7 @@ const friends = [{
 },
 {
     "name": "Vanessa",
-        "photo": "https://www.incimages.com/uploaded_files/image/100x100/_DSC4034-3_346068.jpg",
+        "photo": "https://ewedit.files.wordpress.com/2018/07/mdj-03479r-pk.jpg",
             "scores": [
                 1,
                 1,
@@ -81,10 +79,4 @@ const friends = [{
                 1
             ]
 }]
-
 module.exports = friends;
-
-// Capture the form inputs
-// $("#submit").on("click", function (event) {
-//     event.preventDefault();
-

@@ -1,6 +1,5 @@
 // Dependencies
 var express = require("express");
-// path is a built in... can use for path.join or sendfile, for files to send to user
 var path = require("path");
 
 // Sets up the Express App
@@ -11,7 +10,7 @@ var PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// routes to html & api
+// Routes to html & api
 require("./app/routing/htmlRoutes")(app);
 require("./app/routing/apiRoutes")(app);
 
@@ -19,4 +18,3 @@ require("./app/routing/apiRoutes")(app);
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
-  

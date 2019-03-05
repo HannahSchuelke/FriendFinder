@@ -1,11 +1,9 @@
-<!-- Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Survey - Friend Finder</title>
-  <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
@@ -15,12 +13,12 @@
 <body>
 
   <div class="container">
-
     <div class="jumbotron">
-        <h1><i class="fa fa-facebook-square" aria-hidden="true"></i>      Friend Finder</h1>
+      <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
       <hr>
       <h3 class="text-center">Survey Questions</h3>
       <br>
+      <!-- Survey inputs -->
       <form>
         <div class="form-group">
           <label for="name">Name</label>
@@ -33,7 +31,7 @@
         <div class="form-group">
           <label for="question1">You find it difficult to introduce yourself to other people.</label>
           <select class="chosen-select" id="question1">
-            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
@@ -74,61 +72,61 @@
         <div class="form-group">
           <label for="question5">You do not usually initiate conversations.</label>
           <select class="chosen-select" id="question5">
-              <option value="1">1 (Strongly Disagree)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Strongly Agree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
         <div class="form-group">
           <label for="question6">You rarely do something just out of sheer curiosity.</label>
           <select class="chosen-select" id="question6">
-              <option value="1">1 (Strongly Disagree)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Strongly Agree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
         <div class="form-group">
           <label for="question7">Being organized is more important to you than being adaptable.</label>
           <select class="chosen-select" id="question7">
-              <option value="1">1 (Strongly Disagree)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Strongly Agree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
         <div class="form-group">
           <label for="question8">You are usually highly motivated and energetic.</label>
           <select class="chosen-select" id="question8">
-              <option value="1">1 (Strongly Disagree)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Strongly Agree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
         <div class="form-group">
           <label for="question9">You often feel as if you have to justify yourself to other people.</label>
           <select class="chosen-select" id="question9">
-              <option value="1">1 (Strongly Disagree)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Strongly Agree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
         <div class="form-group">
           <label for="question10">Your home and work environments are quite tidy.</label>
           <select class="chosen-select" id="question10">
-              <option value="1">1 (Strongly Disagree)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Strongly Agree)</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
         <br>
@@ -138,102 +136,96 @@
         <br>
         <div class="container"></div>
         <footer class="footer">
-            <p><a href="/api/friends">API Friends List</a> | <a
-                href="https://github.com/HannahSchuelke/FriendFinder">Github Repo</a>
-          </div>
-        </footer>
-
+          <p><a href="/api/friends">API Friends List</a> | <a
+              href="https://github.com/HannahSchuelke/FriendFinder">Github Repo</a>
     </div>
-
-
-
-    <!-- Modal code here -->
-    <div id="results-modal" class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-
-
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Best Match</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <h1 id="match-name"></h1>
-              <img id="match-img" src="" alt="">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
+    </footer>
+  </div>
+  <!-- Modal code here -->
+  <div id="results-modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Best Match</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 id="match-name"></h1>
+          <img id="match-img" src="" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
+    </div>
+  </div>
+  <!-- Javascript -->
+  <script>
 
-    <script>
+    $("#submit").on("click", function (event) {
+      event.preventDefault();
 
-$("#submit").on("click", function (event) {
-    event.preventDefault();
-      
-    // Form validation
-    function validateForm() {
+      // Form validation
+      function validateForm() {
         var isValid = true;
         $(".form-control").each(function () {
-            if ($(this).val() === "") {
-                isValid = false;
-            }
+          if ($(this).val() === "") {
+            isValid = false;
+          }
         });
-// will loop through all answers
+        // Will loop through all answers
         $(".chosen-select").each(function () {
 
-            if ($(this).val() === "") {
-                isValid = false;
-            }
+          if ($(this).val() === "") {
+            isValid = false;
+          }
         });
         return isValid;
-    }
+      }
 
-    // If all required fields are filled
-    if (validateForm()) {
+      // If all required fields are filled
+      if (validateForm()) {
         // Create an object for the user"s data
         var userData = {
-            name: $("#name").val(),
-            photo: $("#photo").val(),
-            scores: [
-                $("#question1").val(),
-                $("#question2").val(),
-                $("#question3").val(),
-                $("#question4").val(),
-                $("#question5").val(),
-                $("#question6").val(),
-                $("#question7").val(),
-                $("#question8").val(),
-                $("#question9").val(),
-                $("#question10").val()
-            ]
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#question1").val(),
+            $("#question2").val(),
+            $("#question3").val(),
+            $("#question4").val(),
+            $("#question5").val(),
+            $("#question6").val(),
+            $("#question7").val(),
+            $("#question8").val(),
+            $("#question9").val(),
+            $("#question10").val()
+          ]
         };
 
         // AJAX post the data to the friends API.
         $.post("/api/friends", userData, function (data) {
 
-            console.log("here is our matched friend: ", data);
+          console.log("here is our matched friend: ", data);
 
-            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
-            $("#match-name").text(data.name);
-            $("#match-img").attr("src", data.photo);
-            $("#match-img").css("max-height", "300px");
-            $("#match-img").css("max-width", "300px");
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+          $("#match-img").css("max-height", "300px");
+          $("#match-img").css("max-width", "300px");
 
-            // Show the modal with the best match
-            $("#results-modal").modal("toggle");
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
 
         });
-    } else {
+      } else {
         alert("Please fill out all fields before submitting!");
-    }
-});
+      }
+    });
 
-    </script>
+  </script>
 
 </body>
 
