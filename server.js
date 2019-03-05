@@ -10,3 +10,13 @@ var PORT = 3000;
 // Sets up the Express app to handle data parsing (if not, req.body is always undefined)
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// routes to html & api
+require("./app/routing/htmlRoutes")(app);
+require("./app/routing/apiRoutes")(app);
+
+// Listener
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
+  
